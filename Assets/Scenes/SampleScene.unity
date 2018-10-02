@@ -268,8 +268,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a1acd69b50d634e28a1a10e19569622f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  player: {fileID: 0}
-  offset: {x: 0, y: -5, z: 0}
+  player: {fileID: 682211105}
+  offset: {x: 0, y: 5, z: -4}
   offsetPosSpace: 1
 --- !u!1 &682211101
 GameObject:
