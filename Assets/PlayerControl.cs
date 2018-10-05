@@ -1,38 +1,58 @@
-﻿using System.Collections;
+﻿using System;
+using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class PlayerControl : MonoBehaviour {
+public class PlayerControl : MonoBehaviour
+{
 
+
+	public float force;
+
+	public Rigidbody rd;
+
+	public float health;
+	public Vector3 jump;
+	public float jumpForce = 1f;
+	private bool jumping;
+
+	
+	
 	// Use this for initialization
-	void Start () {
-		
+	void Start ()
+	{
+		rd = GetComponent<Rigidbody>();
+		jump = new Vector3(0f, 5f, 0f);
+		jumping = false;
+
+
 	}
 	
 	// Update is called once per frame
 	void Update () {
-		if (Input.GetKey(KeyCode.W))
-	
+		
+		Ray grounded = new Ray(transform.position, Vector3.down);
 
+		float maxGroundDistance = 1.3f;
+		Debug.DrawRay(grounded.origin, grounded.direction * maxGroundDistance, Color.cyan);
+
+		if (Physics.Raycast(grounded, maxGroundDistance))
 		{
-			transform.Translate(0f, 0f, 0.5f);
+			jumping = true;
+		}
+		
+		
+
+		if (jumping = true)
+		{
+			if (Input.GetKeyDown(KeyCode.Space))
+			{
+				rd.AddForce(jump * jumpForce, ForceMode.Impulse);
+			}
 		}
 
-		if (Input.GetKey(KeyCode.S))
-		{
-			transform.Translate(0f,0f,-0.5f);
-			
-		}
-
-		if (Input.GetKey(KeyCode.A))
-		{
-			transform.Rotate(0f,-3f,0f);
-			
-		}
-
-		if (Input.GetKey(KeyCode.D))
-		{
-			transform.Rotate(0f,3f,0f);
-		}
 	}
+	
+	
+	
 }

@@ -2,7 +2,15 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="e6055409-f3e0-47c1-bae6-81b2e898667b" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.KimBrian_Midterm_InterGameDevFall2018/.idea/contentModel.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.KimBrian_Midterm_InterGameDevFall2018/.idea/contentModel.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.KimBrian_Midterm_InterGameDevFall2018/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.KimBrian_Midterm_InterGameDevFall2018/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/CarControl.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/CarControl.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/PlayerControl.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/PlayerControl.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scene_1.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scene_1.unity" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Scenes/SampleScene.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/SampleScene.unity" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ProjectSettings/GraphicsSettings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/GraphicsSettings.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ProjectSettings/UnityConnectSettings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/UnityConnectSettings.asset" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -14,69 +22,79 @@
     <session id="1118228786">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="2" />
+          <entry key="project.closed" value="4" />
+          <entry key="project.open.time.1" value="1" />
           <entry key="project.open.time.14" value="1" />
           <entry key="project.open.time.5" value="1" />
           <entry key="project.open.time.7" value="1" />
-          <entry key="project.opened" value="3" />
+          <entry key="project.opened" value="4" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="cs" value="1152" />
+          <entry key="cs" value="3741" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="C#" value="1152" />
+          <entry key="C#" value="3741" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
-          <entry key="cs" value="4" />
+          <entry key="cs" value="8" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
-          <entry key="C#" value="4" />
+          <entry key="C#" value="8" />
         </counts>
       </usages-collector>
     </session>
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Assets/CarControl.cs">
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/Assets/PlayerControl.cs">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="531">
-              <caret line="41" column="8" selection-start-line="41" selection-start-column="8" selection-end-line="41" selection-end-column="8" />
+            <state relative-caret-position="454">
+              <caret line="43" column="8" lean-forward="true" selection-start-line="43" selection-start-column="8" selection-end-line="43" selection-end-column="8" />
               <folding>
-                <marker date="1538057788599" expanded="false" signature="6:78" ph="..." />
-                <marker date="1538057788599" expanded="true" signature="80:176" ph="/* usage: put this on a Cube with a Rigidbody ... */" />
-                <marker date="1538057788599" expanded="true" signature="216:1189" ph="{...}" />
-                <marker date="1538057788599" expanded="true" signature="440:513" ph="{...}" />
-                <marker date="1538057788599" expanded="true" signature="567:894" ph="{...}" />
-                <marker date="1538057788599" expanded="true" signature="573:691" ph="/* Input.GetAxis return a number between -1f and 1f... 0f if nothing ... */" />
-                <marker date="1538057788599" expanded="true" signature="1003:1187" ph="{...}" />
+                <marker date="1538669493709" expanded="false" signature="6:92" ph="..." />
+                <marker date="1538669493709" expanded="true" signature="136:902" ph="{...}" />
+                <marker date="1538669493709" expanded="true" signature="334:429" ph="{...}" />
+                <marker date="1538669493709" expanded="true" signature="484:894" ph="{...}" />
+                <marker date="1538669493709" expanded="true" signature="722:749" ph="{...}" />
+                <marker date="1538669493709" expanded="true" signature="778:890" ph="{...}" />
+                <marker date="1538669493709" expanded="true" signature="822:886" ph="{...}" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Assets/PlayerControl.cs">
+        <entry file="file://$PROJECT_DIR$/../Week4_Raycasting/Assets/Scripts/RaycastGrounded.cs">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="315">
-              <caret line="23" column="12" selection-start-line="23" selection-start-column="12" selection-end-line="23" selection-end-column="12" />
+            <state relative-caret-position="495">
+              <caret line="33" column="9" selection-start-line="33" selection-start-column="9" selection-end-line="33" selection-end-column="9" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Assets/Script/PlayerMouseControl.cs">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="865">
+              <caret line="69" column="9" selection-start-line="66" selection-start-column="8" selection-end-line="69" selection-end-column="9" />
               <folding>
-                <marker date="1538484229693" expanded="false" signature="6:78" ph="..." />
-                <marker date="1538484229693" expanded="true" signature="124:550" ph="{...}" />
-                <marker date="1538484229693" expanded="true" signature="174:181" ph="{...}" />
-                <marker date="1538484229693" expanded="true" signature="236:548" ph="{...}" />
-                <marker date="1538484229693" expanded="true" signature="271:317" ph="{...}" />
-                <marker date="1538484229693" expanded="true" signature="349:398" ph="{...}" />
-                <marker date="1538484229693" expanded="true" signature="430:474" ph="{...}" />
-                <marker date="1538484229693" expanded="true" signature="506:545" ph="{...}" />
+                <marker date="1538668405804" expanded="true" signature="6:78" ph="..." />
+                <marker date="1538668405804" expanded="true" signature="127:1624" ph="{...}" />
+                <marker date="1538668405804" expanded="true" signature="358:439" ph="{...}" />
+                <marker date="1538668405804" expanded="true" signature="491:1622" ph="{...}" />
+                <marker date="1538668405804" expanded="true" signature="1113:1401" ph="{...}" />
+                <marker date="1538668405804" expanded="true" signature="1191:1396" ph="{...}" />
+                <marker date="1538668405804" expanded="true" signature="1452:1494" ph="{...}" />
+                <marker date="1538668405804" expanded="true" signature="1554:1615" ph="{...}" />
               </folding>
             </state>
           </provider>
@@ -85,40 +103,31 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/../KimBrian_InterGamDev_Week2Assignment/Assets/Scripts/TopDownCamera.cs">
           <provider selected="true" editor-type-id="text-editor">
-            <state>
-              <caret selection-end-line="76" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/Assets/PlayerCamera.cs">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="195">
-              <caret line="13" column="4" selection-start-line="13" selection-start-column="4" selection-end-line="21" selection-end-column="34" />
-              <folding>
-                <marker date="1538484320548" expanded="true" signature="6:78" ph="..." />
-                <marker date="1538484320548" expanded="true" signature="122:1561" ph="{...}" />
-                <marker date="1538484320548" expanded="true" signature="254:732" ph="/* put this script on your Main Camera, and make sure your Main Camera is already pointed down ... */" />
-                <marker date="1538484320548" expanded="true" signature="746:755" ph="{...}" />
-                <marker date="1538484320548" expanded="true" signature="775:794" ph="{...}" />
-                <marker date="1538484320548" expanded="true" signature="819:1559" ph="{...}" />
-                <marker date="1538484320548" expanded="true" signature="844:915" ph="{...}" />
-                <marker date="1538484320548" expanded="true" signature="975:1038" ph="{...}" />
-                <marker date="1538484320548" expanded="true" signature="1045:1103" ph="{...}" />
-                <marker date="1538484320548" expanded="true" signature="1140:1177" ph="{...}" />
-                <marker date="1538484320548" expanded="true" signature="1184:1233" ph="{...}" />
-                <marker date="1538484320548" expanded="true" signature="1238:1555" ph="/* Update is called once per frame ... */" />
-              </folding>
+            <state relative-caret-position="210">
+              <caret line="14" column="57" selection-start-line="14" selection-start-column="57" selection-end-line="14" selection-end-column="57" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/../KimBrian_InterGamDev_Week2Assignment/Assets/Scripts/PlayerMovement.cs">
+        <entry file="file://$PROJECT_DIR$/Assets/PlayerCamera.cs">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="240">
-              <caret line="16" column="4" selection-start-line="16" selection-start-column="4" selection-end-line="38" selection-end-column="9" />
+            <state relative-caret-position="150">
+              <caret line="12" column="4" selection-start-line="12" selection-start-column="4" selection-end-line="12" selection-end-column="4" />
+              <folding>
+                <marker date="1538484471675" expanded="false" signature="6:78" ph="..." />
+                <marker date="1538484471675" expanded="true" signature="121:1560" ph="{...}" />
+                <marker date="1538484471675" expanded="true" signature="253:731" ph="/* put this script on your Main Camera, and make sure your Main Camera is already pointed down ... */" />
+                <marker date="1538484471675" expanded="true" signature="745:754" ph="{...}" />
+                <marker date="1538484471675" expanded="true" signature="774:793" ph="{...}" />
+                <marker date="1538484471675" expanded="true" signature="818:1558" ph="{...}" />
+                <marker date="1538484471675" expanded="true" signature="843:914" ph="{...}" />
+                <marker date="1538484471675" expanded="true" signature="974:1037" ph="{...}" />
+                <marker date="1538484471675" expanded="true" signature="1044:1102" ph="{...}" />
+                <marker date="1538484471675" expanded="true" signature="1139:1176" ph="{...}" />
+                <marker date="1538484471675" expanded="true" signature="1183:1232" ph="{...}" />
+                <marker date="1538484471675" expanded="true" signature="1237:1554" ph="/* Update is called once per frame ... */" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -129,18 +138,20 @@
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="HighlightingSettingsPerFile">
-    <setting file="file://$PROJECT_DIR$/Assets/CarControl.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/PlayerCamera.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/../KimBrian_InterGamDev_Week2Assignment/Assets/Scripts/TopDownCamera.cs" root0="SKIP_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/../KimBrian_InterGamDev_Week2Assignment/Assets/Scripts/PlayerMovement.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Script/PlayerMouseControl.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/PlayerControl.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/../KimBrian_InterGamDev_Week2Assignment/Assets/Scripts/TopDownCamera.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/../KimBrian_InterGamDev_Week2Assignment/Assets/Scripts/PlayerMovement.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/../Week4_Raycasting/Assets/Scripts/RaycastGrounded.cs" root0="SKIP_HIGHLIGHTING" />
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/Assets/CarControl.cs" />
-        <option value="$PROJECT_DIR$/Assets/PlayerControl.cs" />
         <option value="$PROJECT_DIR$/Assets/PlayerCamera.cs" />
+        <option value="$PROJECT_DIR$/Assets/Script/PlayerMouseControl.cs" />
+        <option value="$PROJECT_DIR$/Assets/PlayerControl.cs" />
       </list>
     </option>
   </component>
@@ -151,8 +162,8 @@
     <sorting>DEFINITION_ORDER</sorting>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="300" />
-    <option name="y" value="111" />
+    <option name="x" value="294" />
+    <option name="y" value="87" />
     <option name="width" value="1279" />
     <option name="height" value="828" />
   </component>
@@ -161,13 +172,13 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="SolutionExplorer">
-        <option name="show-all-files" value="false" />
-      </pane>
+      <pane id="FileSystemExplorer" />
       <pane id="UnityExplorer">
         <option name="show-hidden-items" value="false" />
       </pane>
-      <pane id="FileSystemExplorer" />
+      <pane id="SolutionExplorer">
+        <option name="show-all-files" value="false" />
+      </pane>
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -216,12 +227,13 @@
       <updated>1538055937428</updated>
       <workItem from="1538055941670" duration="453000" />
       <workItem from="1538056413779" duration="1749000" />
-      <workItem from="1538484092306" duration="235000" />
+      <workItem from="1538484092306" duration="1008000" />
+      <workItem from="1538662523000" duration="6222000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="2460000" />
+    <option name="totallyTimeSpent" value="9432000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -233,10 +245,10 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="300" y="111" width="1279" height="828" extended-state="0" />
+    <frame x="294" y="87" width="1279" height="828" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.13500404" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.13662086" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -253,7 +265,7 @@
       <window_info anchor="bottom" id="Database Changes" order="11" show_stripe_button="false" />
       <window_info anchor="bottom" id="Unit Tests" order="12" />
       <window_info anchor="bottom" id="Terminal" order="13" />
-      <window_info anchor="bottom" id="Event Log" order="14" side_tool="true" />
+      <window_info anchor="bottom" id="Event Log" order="14" side_tool="true" weight="0.32880434" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -282,68 +294,82 @@
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/Assets/CarControl.cs">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="531">
+        <state relative-caret-position="585">
           <caret line="41" column="8" selection-start-line="41" selection-start-column="8" selection-end-line="41" selection-end-column="8" />
-          <folding>
-            <marker date="1538057788599" expanded="false" signature="6:78" ph="..." />
-            <marker date="1538057788599" expanded="true" signature="80:176" ph="/* usage: put this on a Cube with a Rigidbody ... */" />
-            <marker date="1538057788599" expanded="true" signature="216:1189" ph="{...}" />
-            <marker date="1538057788599" expanded="true" signature="440:513" ph="{...}" />
-            <marker date="1538057788599" expanded="true" signature="567:894" ph="{...}" />
-            <marker date="1538057788599" expanded="true" signature="573:691" ph="/* Input.GetAxis return a number between -1f and 1f... 0f if nothing ... */" />
-            <marker date="1538057788599" expanded="true" signature="1003:1187" ph="{...}" />
-          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/../KimBrian_InterGamDev_Week2Assignment/Assets/Scripts/PlayerMovement.cs">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="240">
-          <caret line="16" column="4" selection-start-line="16" selection-start-column="4" selection-end-line="38" selection-end-column="9" />
+        <state relative-caret-position="546">
+          <caret line="38" column="9" lean-forward="true" selection-start-line="38" selection-start-column="9" selection-end-line="38" selection-end-column="9" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Assets/PlayerControl.cs">
+    <entry file="file://$PROJECT_DIR$/Assets/PlayerCamera.cs">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="315">
-          <caret line="23" column="12" selection-start-line="23" selection-start-column="12" selection-end-line="23" selection-end-column="12" />
+        <state relative-caret-position="150">
+          <caret line="12" column="4" selection-start-line="12" selection-start-column="4" selection-end-line="12" selection-end-column="4" />
           <folding>
-            <marker date="1538484229693" expanded="false" signature="6:78" ph="..." />
-            <marker date="1538484229693" expanded="true" signature="124:550" ph="{...}" />
-            <marker date="1538484229693" expanded="true" signature="174:181" ph="{...}" />
-            <marker date="1538484229693" expanded="true" signature="236:548" ph="{...}" />
-            <marker date="1538484229693" expanded="true" signature="271:317" ph="{...}" />
-            <marker date="1538484229693" expanded="true" signature="349:398" ph="{...}" />
-            <marker date="1538484229693" expanded="true" signature="430:474" ph="{...}" />
-            <marker date="1538484229693" expanded="true" signature="506:545" ph="{...}" />
+            <marker date="1538484471675" expanded="false" signature="6:78" ph="..." />
+            <marker date="1538484471675" expanded="true" signature="121:1560" ph="{...}" />
+            <marker date="1538484471675" expanded="true" signature="253:731" ph="/* put this script on your Main Camera, and make sure your Main Camera is already pointed down ... */" />
+            <marker date="1538484471675" expanded="true" signature="745:754" ph="{...}" />
+            <marker date="1538484471675" expanded="true" signature="774:793" ph="{...}" />
+            <marker date="1538484471675" expanded="true" signature="818:1558" ph="{...}" />
+            <marker date="1538484471675" expanded="true" signature="843:914" ph="{...}" />
+            <marker date="1538484471675" expanded="true" signature="974:1037" ph="{...}" />
+            <marker date="1538484471675" expanded="true" signature="1044:1102" ph="{...}" />
+            <marker date="1538484471675" expanded="true" signature="1139:1176" ph="{...}" />
+            <marker date="1538484471675" expanded="true" signature="1183:1232" ph="{...}" />
+            <marker date="1538484471675" expanded="true" signature="1237:1554" ph="/* Update is called once per frame ... */" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/../KimBrian_InterGamDev_Week2Assignment/Assets/Scripts/TopDownCamera.cs">
       <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret selection-end-line="76" />
+        <state relative-caret-position="210">
+          <caret line="14" column="57" selection-start-line="14" selection-start-column="57" selection-end-line="14" selection-end-column="57" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Assets/PlayerCamera.cs">
+    <entry file="file://$PROJECT_DIR$/Assets/Script/PlayerMouseControl.cs">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-7">
-          <caret line="25" column="5" lean-forward="true" selection-start-line="25" selection-start-column="5" selection-end-line="25" selection-end-column="5" />
+        <state relative-caret-position="865">
+          <caret line="69" column="9" selection-start-line="66" selection-start-column="8" selection-end-line="69" selection-end-column="9" />
           <folding>
-            <marker date="1538484320548" expanded="true" signature="6:78" ph="..." />
-            <marker date="1538484320548" expanded="true" signature="122:1561" ph="{...}" />
-            <marker date="1538484320548" expanded="true" signature="254:732" ph="/* put this script on your Main Camera, and make sure your Main Camera is already pointed down ... */" />
-            <marker date="1538484320548" expanded="true" signature="746:755" ph="{...}" />
-            <marker date="1538484320548" expanded="true" signature="775:794" ph="{...}" />
-            <marker date="1538484320548" expanded="true" signature="819:1559" ph="{...}" />
-            <marker date="1538484320548" expanded="true" signature="844:915" ph="{...}" />
-            <marker date="1538484320548" expanded="true" signature="975:1038" ph="{...}" />
-            <marker date="1538484320548" expanded="true" signature="1045:1103" ph="{...}" />
-            <marker date="1538484320548" expanded="true" signature="1140:1177" ph="{...}" />
-            <marker date="1538484320548" expanded="true" signature="1184:1233" ph="{...}" />
-            <marker date="1538484320548" expanded="true" signature="1238:1555" ph="/* Update is called once per frame ... */" />
+            <marker date="1538668405804" expanded="true" signature="6:78" ph="..." />
+            <marker date="1538668405804" expanded="true" signature="127:1624" ph="{...}" />
+            <marker date="1538668405804" expanded="true" signature="358:439" ph="{...}" />
+            <marker date="1538668405804" expanded="true" signature="491:1622" ph="{...}" />
+            <marker date="1538668405804" expanded="true" signature="1113:1401" ph="{...}" />
+            <marker date="1538668405804" expanded="true" signature="1191:1396" ph="{...}" />
+            <marker date="1538668405804" expanded="true" signature="1452:1494" ph="{...}" />
+            <marker date="1538668405804" expanded="true" signature="1554:1615" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../Week4_Raycasting/Assets/Scripts/RaycastGrounded.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="495">
+          <caret line="33" column="9" selection-start-line="33" selection-start-column="9" selection-end-line="33" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/PlayerControl.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="454">
+          <caret line="43" column="8" lean-forward="true" selection-start-line="43" selection-start-column="8" selection-end-line="43" selection-end-column="8" />
+          <folding>
+            <marker date="1538669493709" expanded="false" signature="6:92" ph="..." />
+            <marker date="1538669493709" expanded="true" signature="136:902" ph="{...}" />
+            <marker date="1538669493709" expanded="true" signature="334:429" ph="{...}" />
+            <marker date="1538669493709" expanded="true" signature="484:894" ph="{...}" />
+            <marker date="1538669493709" expanded="true" signature="722:749" ph="{...}" />
+            <marker date="1538669493709" expanded="true" signature="778:890" ph="{...}" />
+            <marker date="1538669493709" expanded="true" signature="822:886" ph="{...}" />
           </folding>
         </state>
       </provider>
