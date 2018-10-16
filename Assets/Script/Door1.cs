@@ -2,14 +2,12 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-public class GameController : MonoBehaviour
+public class Door1 : MonoBehaviour
 {
 
 	public Transform player;
-    public Transform obj1;
 
-	public Transform door1;
-	
+	public Transform door;
 	// Use this for initialization
 	void Start () {
 		
@@ -17,9 +15,9 @@ public class GameController : MonoBehaviour
 	
 	// Update is called once per frame
 	void Update () {
-		if (Vector3.Distance(player.position, obj1.position) <= 6f)
+		if (Vector3.Distance(player.position, door.position) <= 10f)
 		{
-			
+			transform.Translate(Vector3.up * Time.deltaTime);
 		}
 	}
 }
