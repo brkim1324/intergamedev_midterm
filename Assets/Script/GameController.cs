@@ -1,14 +1,14 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
-using UnityEngine.UI;
 
-public class MainText : MonoBehaviour
+public class GameController : MonoBehaviour
 {
-	public Text myText;
-	public Transform obj1;
-	
+
 	public Transform player;
+    public Transform obj1;
+
+	public Transform door1;
 	
 	// Use this for initialization
 	void Start () {
@@ -19,10 +19,7 @@ public class MainText : MonoBehaviour
 	void Update () {
 		if (Vector3.Distance(player.position, obj1.position) <= 6f)
 		{
-			myText.text = "Proceed";
+			door1.transform 
 		}
-		
-			
-		
 	}
 }
