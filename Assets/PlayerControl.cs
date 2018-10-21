@@ -32,15 +32,27 @@ public class PlayerControl : MonoBehaviour
 	void Update () {
 		
 		Ray grounded = new Ray(transform.position, Vector3.down);
+		Ray aimRay = new Ray(transform.position, Input.mousePosition);
 
 		float maxGroundDistance = 1.3f;
 		Debug.DrawRay(grounded.origin, grounded.direction * maxGroundDistance, Color.cyan);
+
+		float maxAimDistance = Mathf.Infinity;
+		Debug.DrawRay(aimRay.origin, aimRay.direction * maxAimDistance, Color.green);
+		
+		RaycastHit mouseRayHit = new RaycastHit();
+		
+		
 
 		if (Physics.Raycast(grounded, maxGroundDistance))
 		{
 			jumping = true;
 		}
 		
+		if (Physics.Raycast(aimRay, out mouseRayHit, maxAimDistance)
+		{
+			
+		}
 		
 
 		if (jumping = true)
