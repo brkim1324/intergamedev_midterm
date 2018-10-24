@@ -14,7 +14,7 @@ public class PlayerControl : MonoBehaviour
 	public float health;
 	public Vector3 jump;
 	public float jumpForce = 1f;
-	private bool jumping;
+	private bool jumping = false;
 
 	
 	
@@ -23,7 +23,7 @@ public class PlayerControl : MonoBehaviour
 	{
 		rd = GetComponent<Rigidbody>();
 		jump = new Vector3(0f, 5f, 0f);
-		jumping = false;
+		
 
 
 	}
@@ -49,22 +49,39 @@ public class PlayerControl : MonoBehaviour
 			jumping = true;
 		}
 		
-		if (Physics.Raycast(aimRay, out mouseRayHit, maxAimDistance)
+		if (Physics.Raycast(aimRay, out mouseRayHit, maxAimDistance))
 		{
 			
 		}
 		
 
-		if (jumping = true)
-		{
-			if (Input.GetKeyDown(KeyCode.Space))
-			{
-				rd.AddForce(jump * jumpForce, ForceMode.Impulse);
-			}
-		}
+		//if (jumping = true)
+		//{
+			//if (Input.GetKeyDown(KeyCode.Space))
+			//{
+				//rd.AddForce(jump * jumpForce, ForceMode.Impulse);
+			//}
+		//}
 
 	}
-	
-	
-	
+
+	public void Jump()
+	{
+		jumping = true;
+		
+
+	}
+
+	private void OnCollisionEnter(Collision col)
+	{
+		if (col.gameObject.tag == "Death")
+		{
+			Respawn();
+		}
+	}
+
+	void Respawn()
+	{
+		transform.position = Vector3.zero;
+	}
 }
